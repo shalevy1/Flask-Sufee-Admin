@@ -35,13 +35,16 @@
 - [gmaps](https://hpneo.github.io/gmaps/)
 - [Fontawesome](http://fontawesome.io/)
 
+### Authors
+- For Flask - [Mike Ryan](https://github.com/MikeRyan56)
+- Original [Colorlib](https://colorlib.com)
 
 ### Changelog
-#### V 1.1.0 - 5 October, 2018
-Initial work for Flask and working on creating all examples to use the base.html and configuring for Jinja2 templating. Still need to work through all the templates. Only index.html has been changed.
+#### V 1.1.0 - 6 October, 2018
+- Conversion of all html pages to use Jinja2 templates.
+- Fix of typos in original template
+- Creation of basic layout for [Flask](http://flask.pocoo.org/)
 
-### Authors
-[Colorlib](https://colorlib.com)
 #### V 1.0.0
 Initial Release
 ### Authors
