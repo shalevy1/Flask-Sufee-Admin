@@ -1,0 +1,6 @@
+#Project exclusions
+env/
+.vscode
+.idea
+.sonarlint
+__pycache__
