@@ -40,6 +40,12 @@
 - Original [Colorlib](https://colorlib.com)
 
 ### Changelog
+#### V 1.3.0 - 6 October, 2018
+- Dockerfile/Docker-Compose created -- docker pull mikeryan56/sufee-admin-flask
+- running on Gunicorn
+- Update of requirements.txt
+- adding Tags
+
 #### V 1.2.0 - 6 October, 2018
 - Dockerfile/Docker-Compose created -- docker pull mikeryan56/sufee-admin-flask
 - running on Gunicorn
