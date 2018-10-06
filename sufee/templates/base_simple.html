@@ -41,11 +41,7 @@
 
 
 
-
-    <script src="{{ url_for('static' , filename='assets/js/vendor/jquery-2.1.4.min.js') }}"></script>
-    <script src="{{ url_for('static' , filename='assets/js/popper.min.js') }}"></script>
-    <script src="{{ url_for('static' , filename='assets/js/plugins.js') }}"></script>
-    <script src="{{ url_for('static' , filename='assets/js/main.js') }}"></script>
+    {% include 'base_assets.html' %}
 
 
 </body>
