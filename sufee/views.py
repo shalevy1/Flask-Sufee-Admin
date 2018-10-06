@@ -14,6 +14,10 @@ def login():
     template = "page-login.html"
     return render_template(template)
 
+@app.route("/register")
+def register():
+    template = "page-register.html"
+    return render_template(template)
 
 # @app.route("/about")
 # def aboutindex():
