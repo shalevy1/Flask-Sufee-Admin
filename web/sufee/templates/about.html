@@ -1,0 +1,63 @@
+{% extends "base.html" %}
+{#{% block body %}#}
+{% block body %}
+<!-- begin -->
+<div class="py-5 text-center">
+  <div class="container">
+    <div class="row">
+      <div class="col-md-12">
+        <h1>Sufee Admin for Flask</h1>
+      </div>
+    </div>
+  </div>
+</div>
+<div class="py-5">
+  <div class="container">
+    <div class="row">
+      <div class="px-lg-5 d-flex flex-column justify-content-center col-lg-6">
+        <h1>Python Flask</h1>
+        <p class="mb-3 lead">
+          <blockquote>
+            Flask is a microframework for Python based on Werkzeug, Jinja 2 and good intentions.
+            And before you ask: It's <a href="http://flask.pocoo.org/docs/1.0/license/">BSD licensed</a>!
+          </blockquote>
+          <p class="latestver">
+            <strong>Latest Version:</strong>
+            <a href="https://pypi.org/project/Flask/1.0.2/">1.0.2</a>
+          </p>
+          <h2>Flask is Fun</h2>
+          <pre><span class="ig">from flask import Flask
+        app = Flask(__name__)</span>
+        
+        @app.route("/")
+        def hello():
+            return "Hello World!"
+        </pre>
+          <h2>And Easy to Setup</h2>
+          <pre><span class="ig">$ </span>pip install Flask
+        <span class="ig">$ </span>FLASK_APP=hello.py flask run
+        <span class="ig"> * Running on http://localhost:5000/</span></pre>
+        </p>
+      </div>
+      <div class="col-lg-6"> <img class="img-fluid d-block" src="{{ url_for('static' , filename='images/flask-python.png') }}">
+      </div>
+    </div>
+  </div>
+</div>
+<div class="py-5">
+  <div class="container">
+    <div class="row">
+      <div class="p-0 col-lg-5 order-2 order-lg-1"> <img class="img-fluid d-block" src="{{ url_for('static' , filename='images/Octocat.png') }}">
+      </div>
+      <div class="d-flex flex-column justify-content-center p-3 col-lg-7 order-1 order-lg-2">
+        <p class="lead mb-0">Help, fork, or just this template. I hope you enjoy it and it helps out!</p>
+        <div class="github-card" data-github="MikeRyan56/Flask-Sufee-Admin" data-width="400" data-height="153"
+          data-theme="default"></div>
+        <script src="//cdn.jsdelivr.net/github-cards/latest/widget.js"></script>
+      </div>
+    </div>
+  </div>
+</div>
+
+{% include 'base_assets.html' %}
+{% endblock %}
