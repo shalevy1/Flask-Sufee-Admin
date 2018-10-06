@@ -44,6 +44,7 @@
 - Dockerfile/Docker-Compose created -- docker pull mikeryan56/sufee-admin-flask
 - running on Gunicorn
 - Update of requirements.txt
+- adding Tags
 
 #### V 1.1.0 - 6 October, 2018
 - Conversion of all html pages to use Jinja2 templates.
