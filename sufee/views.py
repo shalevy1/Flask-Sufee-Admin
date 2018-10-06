@@ -9,6 +9,11 @@ def index():
     template = 'index.html'
     return render_template(template)
 
+@app.route("/about")
+def aboutindex():
+    template = 'about.html'
+    return render_template(template)
+
 @app.route("/page-login")
 def login():
     template = "page-login.html"
@@ -23,12 +28,6 @@ def register():
 def page_forget():
     template = 'pages-forget.html'
     return render_template(template)
-
-# @app.route("/about")
-# def aboutindex():
-#     template = 'about.html'
-#     return render_template(template)
-#
 
 @app.route("/ui-buttons")
 def ui_buttons():
