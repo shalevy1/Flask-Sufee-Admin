@@ -17,11 +17,12 @@
       <div class="px-lg-5 d-flex flex-column justify-content-center col-lg-6">
         <h1>Python Flask</h1>
         <p class="mb-6 lead">
-          <blockquote>  
-          <a href="http://flask.pocoo.org">Flask</a> is a microframework for Python based on Werkzeug, Jinja 2 and good intentions.
+          <blockquote>
+            <a href="http://flask.pocoo.org">Flask</a> is a microframework for Python based on Werkzeug, Jinja 2 and
+            good intentions.
             And before you ask: It's <a href="http://flask.pocoo.org/docs/1.0/license/">BSD licensed</a>!
           </blockquote>
-          
+
           <h2>Flask is Fun</h2>
           <pre><span class="ig">from flask import Flask
         app = Flask(__name__)</span>
@@ -36,7 +37,7 @@
         <span class="ig"> * Running on http://localhost:5000/</span></pre>
         </p>
         <p>
-          <h2>To Setup this Example</h2>
+          <h2>To Setup this Example Locally</h2>
           <pre>git clone https://github.com/MikeRyan56/Flask-Sufee-Admin.git
           <span class="ig">$ </span>virtualenv env
           <span class="ig">$ </span>env\scripts\activate or sources env\bin\activate
@@ -44,9 +45,11 @@
           <span class="ig">$ </span>set FLASK_APP=runserver.py
           <span class="ig">$ </span>flask run
           <span class="ig"> * Running on http://localhost:5000/</span></pre>
-
-
         </p>
+        <p>
+          <h2>Run on Docker</h2>
+          <pre>docker pull mikeryan56/sufee-admin-flask
+          </p>
       </div>
       <div class="col-lg-6"> <img class="img-fluid d-block" src="{{ url_for('static' , filename='images/flask-python.png') }}">
       </div>
